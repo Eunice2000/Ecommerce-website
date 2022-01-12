@@ -1,0 +1,29 @@
+* CSS VARIABLES */
+:root {
+  --primary-color: #565656;
+  --secondary-color: #761387;
+  --dark: #333333;
+  --black: #000000;
+  --white: #fff;
+}
+
+/* CSS RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    background-color: white;
+    position: relative;
+  }
+  nav{
+      background-color: black;
+      display: flex;
+      align-items: center;
+      width: 100%;
+  }
+  
